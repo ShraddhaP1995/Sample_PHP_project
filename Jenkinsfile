@@ -1,4 +1,5 @@
-pipeline {
+
+  pipeline {
 
   agent {
     node {
@@ -91,4 +92,9 @@ def getTagversion (String oldtagVersion)
       }
     }
     return version
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> 4a79db2432dfe15a5eab1f9bb14c03d854481bad
